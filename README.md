@@ -59,10 +59,14 @@ The project is organized for clarity and modularity:
 
 ## Installation On Local Machine
 ### Quick Setup
-1. **Clone** the repository:
+1. **Clone** the repository:  
+   [https://github.com/Tushar3330/Task-Tracker-App](https://github.com/Tushar3330/Task-Tracker-App)
+
+   Then run:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Tushar3330/Task-Tracker-App
    cd task-tracker-app
+
   
 2. **Install dependencies**:
     ```bash
