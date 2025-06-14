@@ -3,7 +3,7 @@ import TaskForm from './components/TaskForm';
 import TaskList from './components/TaskList';
 import FilterButton from './components/FilterButton';
 import useTask from './hooks/useTask';
-import { Analytics } from "@vercel/analytics/next"
+
 function App() {
   const {  tasks, filter, taskStats,  addTask, toggleTask,  deleteTask,  setFilter, } = useTask();
 
