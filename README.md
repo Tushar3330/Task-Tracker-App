@@ -19,6 +19,7 @@ A modern, single-page task management application built with React, Vite, and Ta
 - **LocalStorage**: Browser storage for task persistence.
 
 ## Folder Structure
+### Note: Try to open this repository in a code editor to view the folder structure clearly.
 task-tracker-app/
 ├── public/
 │   ├── favicon.ico            # Default favicon
@@ -39,6 +40,22 @@ task-tracker-app/
 ├── package.json             # Project dependencies and scripts
 ├── README.md                # Project documentation
 ├── vite.config.js           # Vite configuration with React and Tailwind plugins
+
+## Folder Structure 2.0
+The project is organized for clarity and modularity:
+
+- **Root**:
+  - `index.html`: HTML entry.
+  - `package.json`: Dependencies and scripts.
+  - `tailwind.config.js`: Tailwind CSS settings.
+  - `vite.config.js`: Vite configuration.
+- **src/**:
+  - `App.jsx`: Main component with layout and gradient animation.
+  - `index.css`: Tailwind directives and custom styles.
+  - `main.jsx`: React entry point.
+  - **components/**: UI components (`TaskForm.jsx`, `TaskList.jsx`, `TaskItem.jsx`, `FilterButtons.jsx`).
+  - **hooks/**: Custom hook (`useTasks.js`) for task logic.
+  - **utils/**: Utilities (`taskUtils.js`) for filtering/sorting.
 
 ## Installation On Local Machine
 ### Quick Setup
