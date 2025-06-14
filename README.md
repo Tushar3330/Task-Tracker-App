@@ -83,7 +83,7 @@ The project is organized for clarity and modularity:
 This project is **deployed on Vercel**.  
 You can access the live app here:
 
-🔗 [Task Tracker Live Demo](https://task-tracker-jyfulo2zd-tushar-ranas-projects-6c0a28f2.vercel.app/)
+🔗 [Task Tracker Live Demo](https://task-tracker-app-sigma-ten.vercel.app/)
 
 > Hosted with ❤️ using [Vercel](https://vercel.com) — click the link above and enjoy exploring the app!
 
