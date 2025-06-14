@@ -78,4 +78,12 @@ The project is organized for clarity and modularity:
     ```
 4. **Open your browser** and navigate to `http://localhost:5173` to view the app.  
 
+## 🚀 Running Online
+
+This project is **deployed on Vercel**.  
+You can access the live app here:
+
+🔗 [Task Tracker Live Demo](https://task-tracker-jyfulo2zd-tushar-ranas-projects-6c0a28f2.vercel.app/)
+
+> Hosted with ❤️ using [Vercel](https://vercel.com) — click the link above and enjoy exploring the app!
 
