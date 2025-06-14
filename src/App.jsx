@@ -7,6 +7,7 @@ import useTask from './hooks/useTask';
 function App() {
   const {  tasks, filter, taskStats,  addTask, toggleTask,  deleteTask,  setFilter, } = useTask();
 
+
   // Show progress stats if we have tasks
   const renderTaskStats = () => {
     if (taskStats.total === 0) {

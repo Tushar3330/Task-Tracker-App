@@ -1,16 +1,16 @@
-function FilterButtons({ setFilter, activeFilter }) {
+function FilterButton({ setFilter, activeFilter }) {
   const filters = ['All', 'Completed', 'Incomplete'];
 
   return (
-    <div className="mb-6 flex gap-2">
+    <div className="mb-8 flex gap-3 justify-center">
       {filters.map((filter) => (
         <button
           key={filter}
           onClick={() => setFilter(filter)}
-          className={`px-4 py-2 rounded-md ${
+          className={`px-6 py-3 rounded-xl font-medium text-sm uppercase tracking-wider transition-all duration-300 transform hover:scale-105 ${
             activeFilter === filter
-              ? 'bg-blue-600 text-white'
-              : 'bg-gray-200 text-black hover:bg-gray-300'
+              ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg shadow-blue-500/25'
+              : 'bg-white/80 backdrop-blur-sm text-slate-700 hover:bg-white hover:shadow-md border border-slate-200/50'
           }`}
         >
           {filter}
@@ -20,4 +20,4 @@ function FilterButtons({ setFilter, activeFilter }) {
   );
 }
 
-export default FilterButtons;
+export default FilterButton;
