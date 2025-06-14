@@ -3,14 +3,18 @@ import { useState } from 'react';
 function TaskForm({ addTask }) {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
-
+  const [error, setError] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!title.trim()) {
+      setError('Title is required');
+      return;
+    }
     addTask(title, description);
     setTitle('');
     setDescription('');
-
+    setError('');
   };
 
   return (
@@ -22,7 +26,7 @@ function TaskForm({ addTask }) {
         onChange={(e) => setTitle(e.target.value)}
         className="p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
-    
+      {error && <span className="text-red-500 text-sm">{error}</span>}
       <textarea
         placeholder="Task Description"
         value={description}

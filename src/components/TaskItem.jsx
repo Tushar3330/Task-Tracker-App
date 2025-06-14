@@ -14,7 +14,9 @@ function TaskItem({ task, toggleTask, deleteTask }) {
       <div className="flex-1">
         <h4 className="text-lg font-medium">{task.title}</h4>
         <p className="text-gray-600">{task.description}</p>
-
+        <small className="text-gray-400">
+          Created: {new Date(task.timestamp).toLocaleString()}
+        </small>
       </div>
       <button
         onClick={() => deleteTask(task.id)}
