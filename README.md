@@ -19,28 +19,28 @@ A modern, single-page task management application built with React, Vite, and Ta
 - **LocalStorage**: Browser storage for task persistence.
 
 ## Folder Structure
-### Note: Try to open this repository in a code editor to view the folder structure clearly.
+```
 task-tracker-app/
 ├── public/
-│   ├── favicon.ico            # Default favicon
+│   ├── favicon.ico             # Default favicon
 ├── src/
 │   ├── components/
-│   │   ├── TaskForm.jsx      # Form for adding tasks with title, description, and validation
-│   │   ├── TaskList.jsx      # Scrollable list of tasks with empty state
-│   │   ├── TaskItem.jsx      # Individual task with toggle and delete actions
-│   │   ├── FilterButton.jsx  # Buttons for filtering tasks (All, Completed, Incomplete)
+│   │   ├── TaskForm.jsx        # Form for adding tasks with title, description, and validation
+│   │   ├── TaskList.jsx        # Scrollable list of tasks with empty state
+│   │   ├── TaskItem.jsx        # Individual task with toggle and delete actions
+│   │   ├── FilterButton.jsx    # Buttons for filtering tasks (All, Completed, Incomplete)
 │   ├── hooks/
-│   │   ├── useTask.js       # Custom hook for task state and logic
+│   │   ├── useTask.js          # Custom hook for task state and logic
 │   ├── utils/
-│   │   ├── taskUtil.js      # Utility functions for filtering and sorting tasks
-│   ├── App.jsx               # Main component with layout 
-│   ├── index.css            # Tailwind directives
-│   ├── main.jsx             # React entry point
-├── index.html               # HTML entry point and made changes for the apps title and icon
-├── package.json             # Project dependencies and scripts
-├── README.md                # Project documentation
-├── vite.config.js           # Vite configuration with React and Tailwind plugins
-
+│   │   ├── taskUtil.js         # Utility functions for filtering and sorting tasks
+│   ├── App.jsx                 # Main component with layout
+│   ├── index.css               # Tailwind directives
+│   ├── main.jsx                # React entry point
+├── index.html                  # HTML entry point (including app title and icon changes)
+├── package.json                # Project dependencies and scripts
+├── README.md                   # Project documentation
+├── vite.config.js              # Vite configuration with React and Tailwind plugins
+```
 ## Folder Structure 2.0
 The project is organized for clarity and modularity:
 
